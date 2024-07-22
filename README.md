@@ -9,35 +9,35 @@ This repo contains a collection of codes and scripts developed for various cours
 
 ## Courses Included
 
-### 1. Analytical Photogrammetry
+### [1. Analytical Photogrammetry](./Analytical_Photogrammetry)
   - *In this course, codes related to coordinate system transformations and 2D and 3D equations such as ___Multi Quadric___, ___Point Wise___ and ___DLT___ are available in `MATLAB` .*
     
-### 2. Applications Of Photogrammetry
+### [2. Applications Of Photogrammetry](./Applications_Of_Photogrammetry)
   - *In this course, codes for photogrammetry ___Cases 1 to 4___ are available in `MATLAB` for the adjustment and correction of network coordinates.*
     - *Case 1 : Approximate*
     - *Case 2 : Adjustmet & Intersection*
     - *Case 3 : Adjustmet with Control points*
     - *Case 4 : Adding Geodetic observations*
     
-### 3. Geomatic Geodesy
+### [3. Geomatic Geodesy](./Geomatic_Geodesy)
   - *In this course, two projects on ___Datum transformation___ for coordinate determination and ___Gnomic projection___ are available in `MATLAB` .* 
     
-### 4. Geospatial Information System (GIS)
+### [4. Geospatial Information System (GIS)](./GIS)
   - *In this course, an Extension for ___selecting and displaying___ a layer in ***ArcGIS*** has been written in `Python` using `Arcpy` .*
     
-### 5. Image Processing
+### [5. Image Processing](./Image_Processing)
   - *In this course, three labs are available in a `Python notebook` for tasks such as ***histogram equalization***, ***change detection***, and ***frequency domain*** analysis in aerial image processing.*
 
-### 6. Jeodetic
+### [6. Jeodetic](./Geodetic)
   - *In this course, `MATLAB` codes for correcting the ___Z0 error___ of the total station and plotting ___graphs of pressure, temperature, and water vapor parameters___ are available.*
 
-### 7. Numerical Analysis
+### [7. Numerical Analysis](./Numerical_Analysis)
   - *In this course, numerical solutions for several equations using methods such as ***Newton-Raphson*** are provided in `C++` .*
 
-### 8. Remote Sensing (RS)
+### [8. Remote Sensing (RS)](./RS)
   - *In this course, codes for ___Spatial filters___ and ___Histogram analysis___ of images are available in a `Python notebook` .* 
 
-### 9. Spatial Analysis
+### [9. Spatial Analysis](./Spatial_Analysis)
   - *In this course, codes for various Spatial analyses such as ___buffering, distance, classification___, and ***intersection*** are available in `Python` . Additionally, `SQL` codes for spatial queries in ***PostGIS***, along with their data, are also provided.* 
 
 ---
