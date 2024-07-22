@@ -9,7 +9,7 @@ This repo contains a collection of codes and scripts developed for various cours
 
 ## Courses Included
 
-### [1. Analytical Photogrammetry](./Analytical_Photogrammetry)
+### [1. Analytical Photogrammetry](./Analytical-Photogrammetry)
   - *In this course, codes related to coordinate system transformations and 2D and 3D equations such as ___Multi Quadric___, ___Point Wise___ and ___DLT___ are available in `MATLAB` .*
     
 ### [2. Applications Of Photogrammetry](./Applications_Of_Photogrammetry)
