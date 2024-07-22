@@ -1,0 +1,19 @@
+Q1
+
+SELECT SUM(ST_AREA(ST_INTERSECTION(CITY_REGIONS.GEOM, SOIL.GEOM)))
+FROM CITY_REGIONS JOIN SOIL ON ST_INTERSECTS(CITY_REGIONS.GEOM, SOIL.GEOM)
+WHERE SOIL.SOIL='IVS'
+-----------------------------------------------------------------------------
+Q2
+
+SELECT SUM(ST_AREA(CITY_REGIONS.GEOM))
+FROM CITY_REGIONS LEFT JOIN FLOOD_STREAM ON ST_INTERSECTS(CITY_REGIONS.GEOM, FLOOD_STREAM.GEOM)
+WHERE FLOOD_STREAM.GID IS NULL
+--------------------------------------------------------------------------------------------------
+Q3
+
+SELECT VILAGES.GID, JAMEYAT, VILAGES.GEOM
+FROM VILAGES INNER JOIN SOIL ON ST_INTERSECTS(ST_TRANSFORM(ST_SETSRID(VILAGES.GEOM, 4326), 4326), SOIL.GEOM)
+WHERE SOIL.SOIL='IVS' OR SOIL.SOIL='IIS'
+ORDER BY JAMEYAT DESC
+---------------------------------------------------------------------------------------------------------------

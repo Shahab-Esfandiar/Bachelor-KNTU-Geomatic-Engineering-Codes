@@ -1,0 +1,4 @@
+SELECT NAME_CUS
+FROM (public.customer JOIN public.borrower ON NAME_CUS=NAME_BOR)
+WHERE CITY_CUS='Tehran'
+ORDER BY NAME_CUS ASC

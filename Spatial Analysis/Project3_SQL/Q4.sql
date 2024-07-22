@@ -1,0 +1,3 @@
+SELECT ACC_DEP
+FROM ((public.borrower JOIN public.loan ON LNUM=LOAN_NUM) JOIN public.depositer ON NAME_BOR=NAME_DEP)
+WHERE AMOUNT>200000000 AND NAME_DEP LIKE 'Mohammad%'

@@ -1,0 +1,3 @@
+SELECT COUNT(NAME_BOR)
+FROM (public.borrower JOIN public.loan ON LNUM=LOAN_NUM)
+WHERE LNAME_BANK='1402'
